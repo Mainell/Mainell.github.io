@@ -22,6 +22,9 @@ h1{
     
     body {
     
-    background-color: #fee7f0;
-    
-    }
+    background-image: url('https://cdn.pixabay.com/photo/2023/07/28/14/37/flower-8155370_1280.jpg');
+    background-size: cover;  /* Pour que l'image couvre toute la page */
+    background-position: center center;  /* Centrer l'image */
+    background-attachment: fixed;  /* L'image restera fixe pendant le défilement */
+    background-color: #fee7f0; /* Ajouter une couleur de secours au cas où l'image ne se charge pas */
+}
